@@ -1,0 +1,95 @@
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+}
+header {
+    background: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+main{
+    margin-top: 20px;
+    background: white;
+}
+header p{
+    margin-left: 400px;
+}
+.nav {
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    align-items: center;
+}
+.nav a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+}
+.nav a:hover {
+    background-color: #ddd;
+}
+.search-container {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.search-box {
+    padding: 8px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+.btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-import {
+    background-color: #D9D9D9;
+    color: black;
+}
+.btn-add {
+    background-color: #007bff;
+    color: white;
+}
+.btn-delete {
+    background-color: #dc3545;
+    color: white;
+}
+.table-container {
+    padding: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+.action-icons {
+    display: flex;
+    gap: 10px;
+}
+.action-icons img {
+    width: 20px;
+    height: 20px;
+}
